@@ -1,0 +1,160 @@
+:root{
+    /* fonts */
+    --ff-popins-:'Poppins', sans-serif;
+    --ff-cod-:'Source Code Pro', monospace;
+
+    /* colors */
+    --cl--main-1-Sailor_Blue:#00203FFF;
+    --cl--header-whait1:#fff;
+
+
+
+/* fruts color */
+    --cl--tomato-:#ff6347;
+    --cl--cucumber-:#67ab05;
+    --cl--eggplant-:#614051;
+
+}
+
+.menu_section
+{
+    width: 100%;
+        background: rgba( 87, 99, 155, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+min-height: 50vh;
+}
+
+/* nav */
+
+.menu_nav
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+text-decoration: none;
+}
+.link:active{
+color: var(--cl--header-whait1);
+}
+.link:visited{
+    color: var(--cl--header-whait1);
+}
+.link:hover{
+    color: #97BC62FF;
+    transform: scale(1.2em);
+    transition: all 1s ;
+}
+
+
+
+/* carnivors */
+
+.menu
+{
+    color: var(--cl--header-whait1);
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    z-index: 1;
+
+    background-color: rgba(117, 103, 103, 0.4);
+    border:0.5em solid transparent;
+    background-clip: padding-box;
+    backdrop-filter: blur(40px);
+
+}
+.menu h3{
+    padding: 1em 0 2em 0;
+}
+.table_container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.carnivors_menu table
+{
+    /* width: 100%; */
+    text-align: right;
+   
+    table-layout: auto;
+
+
+}
+
+.table_head
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+       
+}
+
+.table_head div
+{
+    width: 30%;
+}
+
+
+.table_body 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.table_body div{
+    padding: 0.5rem 3em 1rem 3em;
+    width: 30%;
+}
+
+.options
+{
+    width: 100%;
+    padding: 0.5rem !important; 
+}
+
+
+@media only screen and (max-width: 800px) {
+
+
+    .menu
+{
+    width: 100%;
+    margin: 0 auto;
+}
+    
+.table_head div
+{
+    width: 30%;
+
+}
+
+.table_body 
+{
+    width: 100%;
+    font-size: 1em;
+   
+}
+
+.table_body div{
+    padding: 0.5rem 2em 1rem 1em;
+    width: 30%;
+    text-align: right;
+}
+}

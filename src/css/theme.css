@@ -1,0 +1,50 @@
+:root{
+    /* fonts */
+    --ff-popins-:'Poppins', sans-serif;
+    --ff-cod-:'Source Code Pro', monospace;
+
+    /* colors */
+    --cl--main-1-Sailor_Blue:#00203FFF;
+    --cl--header-whait1:#ffffff73;
+
+
+
+/* fruts color */
+    --cl--tomato-:#c71f0262;
+    --cl--cucumber-:#4270026e;
+    --cl--eggplant-:#6140517a;
+
+
+
+
+
+}
+.theme_section
+{
+    height: 150px;
+    text-align: center;
+    color: var(--cl--header-whait1);    
+}
+
+
+/* icon container */
+.icon_container
+{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single_icon
+{
+    width: 50px;
+    height: 50px;
+    margin: 1em;
+}
+#eggplant
+{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 2.5em;
+}

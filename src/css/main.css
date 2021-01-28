@@ -1,0 +1,37 @@
+*,*::before,*::after
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+:root{
+    /* fonts */
+    --ff-popins-:'Poppins', sans-serif;
+    --ff-cod-:'Source Code Pro', monospace;
+
+    /* colors */
+    --cl--main-1-Sailor_Blue:#00203FFF;
+    --cl--header-whait1:#fff;
+
+
+
+
+
+}
+.main_container
+{
+    position: relative;
+    min-height: 100vh;
+    background-image: url("./food-background-300x200.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+@media only screen and (max-width: 600px) {
+
+    
+}
+

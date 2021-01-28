@@ -1,0 +1,59 @@
+
+
+
+
+
+
+
+
+/* main admin */
+
+.admin_table
+{
+    color: white;
+    width: 100%;
+}
+
+.admin_table th{
+    padding: 1em;
+}
+
+
+/* הוספת מוצר */
+.add_form_container
+{
+    width: 100%;
+}
+
+.add_form_container form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-end;
+    justify-content: space-between; */
+    width: 60%;
+    text-align: left;
+}
+
+.add_single_input_box
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    margin: 2em 0;
+}
+
+.add_form_container .input
+{
+    width: 50em;
+    
+    
+}
+
+
+label{
+    padding: 0 2em;
+    color: aliceblue;
+    align-self: flex-start;
+}

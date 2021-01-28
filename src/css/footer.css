@@ -1,0 +1,66 @@
+:root{
+    /* fonts */
+    --ff-popins-:'Poppins', sans-serif;
+    --ff-cod-:'Source Code Pro', monospace;
+
+    /* colors */
+    --cl--main-1-Sailor_Blue:#00203FFF;
+    --cl--header-whait1:#fff;
+
+
+
+/* fruts color */
+    --cl--tomato-:#ff6347;
+    --cl--cucumber-:#67ab05;
+    --cl--eggplant-:#614051;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    min-height: 150px;
+    margin-top: 2em;
+    
+}
+
+footer div:nth-child(1)
+{
+    display: grid;
+    place-items: center;
+    height: 120px;
+}
+footer div:nth-child(2)
+{
+    background: rgba( 87, 99, 155, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.orders_phone
+{
+    font-family: var(--ff-popins-);
+    font-size: 3em;
+    color: var(--cl--header-whait1);
+    letter-spacing: 0.4rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+.orders_phone
+{
+    font-size: 1.5em;
+}
+
+}
